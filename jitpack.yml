@@ -1,2 +1,5 @@
 jdk:
   - openjdk17
+before_install:
+      - yes | sdkmanager --licenses
+      - yes | sdkmanager "ndk;28.0.12916984"
